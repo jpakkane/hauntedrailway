@@ -17,26 +17,26 @@ digraph ghosttrain {
     4 -> 41 [label="yes"]
     4 -> 82 [label="no"]
 
-    5 [label="5 food-"]
+    5 [label="5 food-" fillcolor="red" style="filled"]
     5 -> 172
 
-    6 [label="6 food-"]
+    6 [label="6 food-" fillcolor="red" style="filled"]
     6 -> 113
 
     7 -> 29
 
-    8 [label="8 food-"]
+    8 [label="8 food-" fillcolor="red" style="filled"]
     8 -> 140
 
-    9 [label="9 food-"]
+    9 [label="9 food-" fillcolor="red" style="filled"]
     9 -> 70
 
-    10 [label="10 food-"]
+    10 [label="10 food-" fillcolor="red" style="filled"]
     10 -> 74
 
     11 -> 160
 
-    12 [label="12 food-"]
+    12 [label="12 food-" fillcolor="red" style="filled"]
     12 -> 116
 
     13 [label="13 code+"]
@@ -82,7 +82,7 @@ digraph ghosttrain {
     24 -> 265 [label="E3"]
     24 -> 71 [label="E1"]
 
-    25 [label="25 food-"]
+    25 [label="25 food-" fillcolor="red" style="filled"]
     25 -> 221
 
     26 [label="26 code+"]
@@ -97,7 +97,7 @@ digraph ghosttrain {
     29 -> 124 [label="yes"]
     29 -> 52 [label="no"]
 
-    30 [label="30 food-"]
+    30 [label="30 food-" fillcolor="red" style="filled"]
     30 -> 116
 
     31 -> 195 [label="Leo"]
@@ -107,7 +107,7 @@ digraph ghosttrain {
     31 -> 143 [label="Tim"]
     31 -> 127 [label="Secret"]
 
-    32 [label="32 food-"]
+    32 [label="32 food-" fillcolor="red" style="filled"]
     32 -> 212
 
     33 -> 78
@@ -138,10 +138,10 @@ digraph ghosttrain {
 
     41 -> 155
 
-    42 [label="42 food-"]
+    42 [label="42 food-" fillcolor="red" style="filled"]
     42 -> 155
 
-    43 [label="43 food-"]
+    43 [label="43 food-" fillcolor="red" style="filled"]
     43 -> 136
 
     44 [label="44 map-"]
@@ -152,7 +152,7 @@ digraph ghosttrain {
     45 -> 153
     45 -> 307
 
-    46 [label="46 food-"]
+    46 [label="46 food-" fillcolor="red" style="filled"]
     46 -> 186
 
     47 -> 101 [label="Leo"]
@@ -179,7 +179,7 @@ digraph ghosttrain {
 
     53 -> 74
 
-    54 [label="54 food-"]
+    54 [label="54 food-" fillcolor="red" style="filled"]
     54 -> 116
 
     55 -> 160
@@ -191,7 +191,7 @@ digraph ghosttrain {
 
     57 -> 93
 
-    58 [label="58 food-"]
+    58 [label="58 food-" fillcolor="red" style="filled"]
     58 -> 212
 
     59 [label="59 map (sheep hedge)"]
@@ -199,7 +199,7 @@ digraph ghosttrain {
     59 -> 216 [label="A2 (correct)"]
     59 -> 299 [label="B1"]
 
-    60 [label="60 food-"]
+    60 [label="60 food-" fillcolor="red" style="filled"]
     60 -> 249
 
     61 [label="61 map (bridge)"]
@@ -207,7 +207,7 @@ digraph ghosttrain {
     61 -> 269 [label="B1"]
     61 -> 117 [label="C1 correct"]
 
-    62 [label="62 food-"]
+    62 [label="62 food-" fillcolor="red" style="filled"]
     62 -> 16
 
     63 [label="63 code+"]
@@ -217,7 +217,7 @@ digraph ghosttrain {
     64 -> 40 [label="yes"]
     64 -> 263 [label="no"]
 
-    65 [label="65 food-"]
+    65 [label="65 food-" fillcolor="red" style="filled"]
     65 -> 18
 
     66 [label="66 map (stones)"]
@@ -239,10 +239,10 @@ digraph ghosttrain {
 
     70 -> 210
 
-    71 [label="71 food-"]
+    71 [label="71 food-" fillcolor="red" style="filled"]
     71 -> 138
 
-    72 [label="72 food-"]
+    72 [label="72 food-" fillcolor="red" style="filled"]
     72 -> 221
 
     73 [label="73 compass"]
@@ -277,12 +277,12 @@ digraph ghosttrain {
     79 -> 279 [label="yes"]
     79 -> 213 [label="no"]
 
-    80 [label="80 food-"]
+    80 [label="80 food-" fillcolor="red" style="filled"]
     80 -> 249
 
     81 -> 38
 
-    82 [label="82 food-"]
+    82 [label="82 food-" fillcolor="red" style="filled"]
     82 -> 155
 
     83 [label="83 code"]
@@ -295,10 +295,10 @@ digraph ghosttrain {
 
     85 -> 155
 
-    86 [label="86 food-"]
+    86 [label="86 food-" fillcolor="red" style="filled"]
     86 -> 47
 
-    88 [label="87 food-"]
+    88 [label="87 food-" fillcolor="red" style="filled"]
     87 -> 113
 
     88 [label="88 code"]
@@ -317,7 +317,7 @@ digraph ghosttrain {
     91 -> 30
     91 -> 129
 
-    92 [label="92 food-"]
+    92 [label="92 food-" fillcolor="red" style="filled"]
     92 -> 74
 
     93 [label="93 binoculars"]
@@ -334,7 +334,7 @@ digraph ghosttrain {
 
     98 -> 4
 
-    99 [label="99 food-"]
+    99 [label="99 food-" fillcolor="red" style="filled"]
     99 -> 18
 
     100 [label="100 map (shepherd's hut)"]
@@ -381,7 +381,7 @@ digraph ghosttrain {
 
     110 -> 66
 
-    111 [label="111 food-"]
+    111 [label="111 food-" fillcolor="red" style="filled"]
     111 -> 155
 
     112 -> 138
@@ -417,14 +417,14 @@ digraph ghosttrain {
 
     121 -> 18
 
-    122 [label="122 food-"]
+    122 [label="122 food-" fillcolor="red" style="filled"]
     122 -> 155
 
     123 -> 47
 
     124 -> 221
 
-    125 [label="125 food-"]
+    125 [label="125 food-" fillcolor="red" style="filled"]
     125 -> 140
 
     126 [label="126 map+"]
@@ -458,7 +458,7 @@ digraph ghosttrain {
 
     134 -> 172
 
-    135 [label="135 food-"]
+    135 [label="135 food-" fillcolor="red" style="filled"]
     135 -> 18
 
     136 [label="136 compass"]
@@ -479,7 +479,7 @@ digraph ghosttrain {
     141 [label="141 code+"]
     141 -> 116
 
-    142 [label="142 food-"]
+    142 [label="142 food-" fillcolor="red" style="filled"]
     142 -> 75
 
     143 [label="142 compass"]
@@ -509,7 +509,7 @@ digraph ghosttrain {
 
     151 -> 186
 
-    152 [label="152 food-"]
+    152 [label="152 food-" fillcolor="red" style="filled"]
     152 -> 66
 
     153 [label="152 map-"]
@@ -529,7 +529,7 @@ digraph ghosttrain {
     156 [label="156 compass+"]
     156 -> 221
 
-    157 [label="157 food-"]
+    157 [label="157 food-" fillcolor="red" style="filled"]
     157 -> 7
 
     158 [label="158 code"]
@@ -611,12 +611,12 @@ digraph ghosttrain {
 
     177 -> 70
 
-    178 [label="178 food-"]
+    178 [label="178 food-" fillcolor="red" style="filled"]
     178 -> 31
 
     179 -> 290
 
-    180 [label="180 food-"]
+    180 [label="180 food-" fillcolor="red" style="filled"]
     180 -> 91
 
     181 [label="181 compass"]
@@ -629,7 +629,7 @@ digraph ghosttrain {
     182 -> 199
     182 -> 58
 
-    183 [label="183 food-"]
+    183 [label="183 food-" fillcolor="red" style="filled"]
     183 -> 14
 
     184 [label="184 compass"]
@@ -649,7 +649,7 @@ digraph ghosttrain {
 
     187 -> 18
 
-    188 [label="188 food-"]
+    188 [label="188 food-" fillcolor="red" style="filled"]
     188 -> 66
 
     189 -> 136
@@ -658,7 +658,7 @@ digraph ghosttrain {
     190 -> 123 [label="yes"]
     190 -> 86 [label="no"]
 
-    191 [label="191 food-"]
+    191 [label="191 food-" fillcolor="red" style="filled"]
     191 -> 7
 
     192 [label="192 map (ruins)"]
@@ -669,7 +669,7 @@ digraph ghosttrain {
     193 [label="193 map+"]
     193 -> 70
 
-    194 [label="194 food-"]
+    194 [label="194 food-" fillcolor="red" style="filled"]
     194 -> 74
 
     195 [label="195 map (shepherd's hut)"]
@@ -677,7 +677,7 @@ digraph ghosttrain {
     195 -> 91 [label="D3"]
     195 -> 115 [label="C3 (correct)"]
 
-    196 [label="196 food-"]
+    196 [label="196 food-" fillcolor="red" style="filled"]
     196 -> 162
 
     197 [label="197 binoculars"]
@@ -689,7 +689,7 @@ digraph ghosttrain {
     198 -> 57 [label="C2"]
     198 -> 13 [label="C3 (correct)"]
 
-    199 [label="199 food-"]
+    199 [label="199 food-" fillcolor="red" style="filled"]
     199 -> 212
 
     200 -> 15 [label="Leo"]
@@ -708,12 +708,12 @@ digraph ghosttrain {
     203 -> 187 [label="yes"]
     203 -> 135 [label="no"]
 
-    204 [label="204 food-"]
+    204 [label="204 food-" fillcolor="red" style="filled"]
     204 -> 136
 
     205 -> 66
 
-    206 [label="206 food-"]
+    206 [label="206 food-" fillcolor="red" style="filled"]
     206 -> 7
 
     207 -> 221
@@ -722,7 +722,7 @@ digraph ghosttrain {
     208 -> 256 [label="yes"]
     208 -> 291 [label="no"]
 
-    209 [label="209 food-"]
+    209 [label="209 food-" fillcolor="red" style="filled"]
     209 -> 162
 
     210 [label="210 compass"]
@@ -735,7 +735,7 @@ digraph ghosttrain {
     212 [label="212 code (good end if yes)"]
     212 -> 145 [label="no"]
 
-    213 [label="213 food-"]
+    213 [label="213 food-" fillcolor="red" style="filled"]
     213 -> 200
 
     214 [label="214 binoculars"]
@@ -747,7 +747,7 @@ digraph ghosttrain {
 
     216 -> 2
 
-    217 [label="217 food-"]
+    217 [label="217 food-" fillcolor="red" style="filled"]
     217 -> 4
 
     218 [label="218 map (swamp)"]
@@ -769,10 +769,10 @@ digraph ghosttrain {
 
     222 -> 74
 
-    223 [label="223 food-"]
+    223 [label="223 food-" fillcolor="red" style="filled"]
     223 -> 75
 
-    224 [label="224 food-"]
+    224 [label="224 food-" fillcolor="red" style="filled"]
     224 -> 182
 
     225 -> 200
@@ -783,7 +783,7 @@ digraph ghosttrain {
     227 [label="227 binoculars"]
     227 -> 151
 
-    228 [label="228 food-"]
+    228 [label="228 food-" fillcolor="red" style="filled"]
     228 -> 136
 
     229 [label="229 code"]
@@ -832,7 +832,7 @@ digraph ghosttrain {
     242 -> 139 [label="yes"]
     242 -> 87 [label="no"]
 
-    243 [label="243 food-"]
+    243 [label="243 food-" fillcolor="red" style="filled"]
     243 -> 221
 
     244 -> 160
@@ -844,7 +844,7 @@ digraph ghosttrain {
 
     246 -> 78
 
-    247 [label="247 food-"]
+    247 [label="247 food-" fillcolor="red" style="filled"]
     247 -> 182
 
     248 [label="248 map (waterfall)"]
@@ -854,7 +854,7 @@ digraph ghosttrain {
 
     249 -> 306
 
-    250 [label="250 food-"]
+    250 [label="250 food-" fillcolor="red" style="filled"]
     250 -> 66
 
     251 [label="251 code-"]
@@ -895,19 +895,19 @@ digraph ghosttrain {
 
     262 -> 38
 
-    263 [label="263 food-"]
+    263 [label="263 food-" fillcolor="red" style="filled"]
     263 -> 172
 
     264 [label="264 code+"]
     264 -> 4
 
-    265 [label="265 food-"]
+    265 [label="265 food-" fillcolor="red" style="filled"]
     265 -> 138
 
     266 [label="266 code+"]
     266 -> 140
 
-    267 [label="267 food-"]
+    267 [label="267 food-" fillcolor="red" style="filled"]
     267 -> 91
 
     268 [label="268 code+"]
@@ -918,7 +918,7 @@ digraph ghosttrain {
     270 [label="270 binoculars-"]
     270 -> 2
 
-    271 [label="271 food-"]
+    271 [label="271 food-" fillcolor="red" style="filled"]
     271 -> 186
 
     272 [label="272 map (railway crossing)"]
@@ -948,7 +948,7 @@ digraph ghosttrain {
 
     279 -> 200
 
-    280 [label="280 food-"]
+    280 [label="280 food-" fillcolor="red" style="filled"]
     280 -> 14
 
     281 [label="281 map (semaphore)"]
@@ -961,7 +961,7 @@ digraph ghosttrain {
     282 -> 307
     282 -> 205
 
-    283 [label="283 food-"]
+    283 [label="283 food-" fillcolor="red" style="filled"]
     283 -> 47
 
     284 -> 70
@@ -970,7 +970,7 @@ digraph ghosttrain {
     285 -> 211 [label="yes"]
     285 -> 142
 
-    286 [label="286 food-"]
+    286 [label="286 food-" fillcolor="red" style="filled"]
     286 -> 91
 
     287 -> 14
@@ -981,7 +981,7 @@ digraph ghosttrain {
     289 [label="289 compass+"]
     289 -> 138
 
-    290 [label="290 food-"]
+    290 [label="290 food-" fillcolor="red" style="filled"]
     290 -> 160
 
     291 [label="291 map-"]
@@ -999,7 +999,7 @@ digraph ghosttrain {
     295 [label="295 code-"]
     295 -> 172
 
-    296 [label="296 food-"]
+    296 [label="296 food-" fillcolor="red" style="filled"]
     296 -> 31
 
     297 [label="297 map+'"]
@@ -1023,7 +1023,7 @@ digraph ghosttrain {
     303 [label="303 code+"]
     303 -> 186
 
-    304 [label="304 food-"]
+    304 [label="304 food-" fillcolor="red" style="filled"]
     304 -> 249
 
     305 -> 36
@@ -1035,19 +1035,19 @@ digraph ghosttrain {
     306 -> 227 [label="Tim"]
     306 -> 294 [label="Secret"]
 
-    307 [label="307 food-"]
+    307 [label="307 food-" fillcolor="red" style="filled"]
     307 -> 66
 
     308 -> 4
 
-    309 [label="309 food-"]
+    309 [label="309 food-" fillcolor="red" style="filled"]
     309 -> 136
 
     310 -> 100
 
     311 -> 7
 
-    312 [label="312 food-"]
+    312 [label="312 food-" fillcolor="red" style="filled"]
     312 -> 70
 
     313 -> 21 [label="Leo"]
@@ -1063,7 +1063,7 @@ digraph ghosttrain {
 
     315 -> 91
 
-    316 [label="316 food-"]
+    316 [label="316 food-" fillcolor="red" style="filled"]
     316 -> 221
 
     317 -> 162
