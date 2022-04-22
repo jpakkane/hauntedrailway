@@ -1,0 +1,1072 @@
+digraph ghosttrain {
+    1 [label="1 start"]
+    1 -> 166 [label="Leo"]
+    1 -> 79 [label="Dick"]
+    1 -> 35 [label="Pauli"]
+    1 -> 146 [label="Anne"]
+    1 -> 61 [label="Tim"]
+    1 -> 248 [label="Secret"]
+
+    2 [label="2 code"]
+    2 -> 148 [label="yes"]
+    2 -> 60 [label="no"]
+
+    3 -> 132
+
+    4 [label="4 bino"]
+    4 -> 41 [label="yes"]
+    4 -> 82 [label="no"]
+
+    5 [label="5 food-"]
+    5 -> 172
+
+    6 [label="6 food-"]
+    6 -> 113
+
+    7 -> 29
+
+    8 [label="8 food-"]
+    8 -> 140
+
+    9 [label="9 food-"]
+    9 -> 70
+
+    10 [label="10 food-"]
+    10 -> 74
+
+    11 -> 160
+
+    12 [label="12 food-"]
+    12 -> 116
+
+    13 [label="13 code+"]
+    13 -> 93
+
+    14 -> 106 [label="Leo"]
+    14 -> 261 [label="Dick"]
+    14 -> 214 [label="Pauli"]
+    14 -> 168 [label="Anne"]
+    14 -> 119 [label="Tim"]
+    14 -> 133 [label="Secret"]
+
+    15 [label="15 bino"]
+    15 -> 149 [label="yes"]
+    15 -> 81 [label="no"]
+
+    16 -> 249
+
+    17 [label="17 bino+"]
+    17 -> 36
+
+    18 [label="18 code"]
+    18 -> 173 [label="yes"]
+    18 -> 42 [label="no"]
+
+    19 -> 136
+
+    20 [label="20 code+"]
+    20 -> 155
+
+    21 [label="21 code"]
+    21 -> 48 [label="yes"]
+    21 -> 191 [label="no"]
+
+    22 -> 113
+
+    23 [label="23 bino"]
+    23 -> 266 [label="yes"]
+    23 -> 252 [label="no"]
+
+    24 [label="24 map (lake)"]
+    24 -> 241 [label="E2 (correct)"]
+    24 -> 265 [label="E3"]
+    24 -> 71 [label="E1"]
+
+    25 [label="25 food-"]
+    25 -> 221
+
+    26 [label="26 code+"]
+    26 -> 31
+
+    27 -> 116 # First duplicate
+
+    28 [label="28 comp+"]
+    28 -> 162
+
+    29 [label="29 bino"]
+    29 -> 124 [label="yes"]
+    29 -> 52 [label="no"]
+
+    30 [label="30 food-"]
+    30 -> 116
+
+    31 -> 195 [label="Leo"]
+    31 -> 76 [label="Dick"]
+    31 -> 164 [label="Pauli"]
+    31 -> 245 [label="Anne"]
+    31 -> 143 [label="Tim"]
+    31 -> 127 [label="Secret"]
+
+    32 [label="32 food-"]
+    32 -> 212
+
+    33 -> 78
+
+    34 [label="34 bino"]
+    34 -> 268 [label="yes"]
+    34 -> 247 [label="no"]
+
+    35 [label="35 comp"]
+    35 -> 297 [label="correct"]
+    35 -> 225
+    35 -> 292
+
+    36 [label="36 bino"]
+    36 -> 185 [label="yes"]
+    36 -> 80 [label="no"]
+
+    37 -> 2
+
+    38 [label="38 map (mushroom rocks)"]
+    38 -> 118 [label="A3 (correct)"]
+    38 -> 95 [label="B2"]
+    38 -> 304 [label="B3"]
+
+    39 -> 132
+
+    40 -> 172
+
+    41 -> 155
+
+    42 [label="42 food-"]
+    42 -> 155
+
+    43 [label="43 food-"]
+    43 -> 136
+
+    44 [label="44 map-"]
+    44 -> 4
+
+    45 [label="45 compass"]
+    45 -> 121 [label="correct"]
+    45 -> 153
+    45 -> 307
+
+    46 [label="46 food-"]
+    46 -> 186
+
+    47 -> 101 [label="Leo"]
+    47 -> 23 [label="Dick"]
+    47 -> 159 [label="Pauli"]
+    47 -> 192 [label="Anne"]
+    47 -> 69 [label="Tim"]
+    47 -> 242 [label="Secret"]
+
+    48 [label="48 map+"]
+    48 -> 7
+
+    49 [label="49 code+"]
+    49 -> 221
+
+    50 -> 140
+
+    51 [label="51 code"]
+    51 -> 112 [label="yes"]
+    51 -> 71 [label="no"]
+
+    52 [label="52 code-"]
+    52 -> 221
+
+    53 -> 74
+
+    54 [label="54 food-"]
+    54 -> 116
+
+    55 -> 160
+
+    56 [label="56 map (memorial)"]
+    56 -> 31 [label="D3"]
+    56 -> 178 [label="E3"]
+    56 -> 26 [label="E4 (correct)"]
+
+    57 -> 93
+
+    58 [label="58 food-"]
+    58 -> 212
+
+    59 [label="59 map (sheep hedge)"]
+    59 -> 270 [label="C2"]
+    59 -> 216 [label="A2 (correct)"]
+    59 -> 299 [label="B1"]
+
+    60 [label="60 food-"]
+    60 -> 249
+
+    61 [label="61 map (bridge)"]
+    61 -> 280 [label="E1"]
+    61 -> 269 [label="B1"]
+    61 -> 117 [label="C1 correct"]
+
+    62 [label="62 food-"]
+    62 -> 16
+
+    63 [label="63 code+"]
+    63 -> 38
+
+    64 [label="64 code"]
+    64 -> 40 [label="yes"]
+    64 -> 263 [label="no"]
+
+    65 [label="65 food-"]
+    65 -> 18
+
+    66 [label="66 map (stones)"]
+    66 -> 42 [label="D4"]
+    66 -> 122 [label="D3"]
+    66 -> 85 [label="E3 (correct"]
+
+    67 [label="67 map (memorial)"]
+    67 -> 309 [label="D3"]
+    67 -> 189 [label="E4 (correct)"]
+    67 -> 228 [label="D4"]
+
+    68 -> 7
+
+    69 [label="69 map (railway crossing)"]
+    69 -> 22 [label="C4 (correct)"]
+    69 -> 6 [label="D3"]
+    69 -> 255 [label="B3"]
+
+    70 -> 210
+
+    71 [label="71 food-"]
+    71 -> 138
+
+    72 [label="72 food-"]
+    72 -> 221
+
+    73 [label="73 compass"]
+    73 -> 90 [label="correct"]
+    73 -> 317
+    73 -> 209
+
+    74 [label="74 code"]
+    74 -> 27 [label="yes"]
+    74 -> 103 [label="no"]
+
+    75 [label="75 map (stone bridge)"]
+    75 -> 12 [label="B1"]
+    75 -> 318 [label="C1 (correct)"]
+    75 -> 116 [label="B2"]
+
+    76 [label="76 bino"]
+    76 -> 232 [label="yes"]
+    76 -> 267 [label="no"]
+
+    77 [label="77 map (bend)"]
+    77 -> 130 [label="B2"]
+    77 -> 104 [label="B3 (correct)"]
+    77 -> 57 [label="C2"]
+
+    78 [label="78 map (railway crossing)"]
+    78 -> 58 [label="B4"]
+    78 -> 199 [label="D4"]
+    78 -> 212 [label="C4 (correct)"]
+
+    79 [label="79 bino"]
+    79 -> 279 [label="yes"]
+    79 -> 213 [label="no"]
+
+    80 [label="80 food-"]
+    80 -> 249
+
+    81 -> 38
+
+    82 [label="82 food-"]
+    82 -> 155
+
+    83 [label="83 code"]
+    83 -> 19 [label="yes"]
+    83 -> 43 [label="no"]
+
+    84 [label="84 code"]
+    84 -> 100 [label="yes"]
+    84 -> 152 [label="no"]
+
+    85 -> 155
+
+    86 [label="86 food-"]
+    86 -> 47
+
+    88 [label="87 food-"]
+    87 -> 113
+
+    88 [label="88 code"]
+    88 -> 156 [label="yes"]
+    88 -> 72 [label="no"]
+
+    89 [label="89 code"]
+    89 -> 11 [label="yes"]
+    89 -> 257 [label="no"]
+
+    90 [label="90 code+"]
+    90 -> 162
+
+    91 [label="91 compass"]
+    91 -> 116 [label="correct"]
+    91 -> 30
+    91 -> 129
+
+    92 [label="92 food-"]
+    92 -> 74
+
+    93 [label="93 binoculars"]
+    93 -> 212 [label="yes"]
+    93 -> 32 [label="no"]
+
+    94 -> 2
+
+    95 -> 304
+
+    96 -> 36
+
+    97 -> 186
+
+    98 -> 4
+
+    99 [label="99 food-"]
+    99 -> 18
+
+    100 [label="100 map (shepherd's hut)"]
+    100 -> 72 [label="D3"]
+    100 -> 243 [label="B3"]
+    100 -> 207 [label="C3 (correct)"]
+
+    101 [label="101 compass"]
+    101 -> 230 [label="correct"]
+    101 -> 125
+    101 -> 8
+
+    102 -> 231 [label="Leo"]
+    102 -> 208 [label="Dick"]
+    102 -> 56 [label="Pauli"]
+    102 -> 89 [label="Anne"]
+    102 -> 144 [label="Tim"]
+    102 -> 277 [label="Secret"]
+
+    103 [label="103 map-"]
+    103 -> 116
+
+    104 -> 93
+
+    105 [label="105 binoculars"]
+    105 -> 234 [label="yes"]
+    105 -> 224 [label="no"]
+
+    106 [label="106 code"]
+    106 -> 147 [label="yes"]
+    106 -> 202 [label="no"]
+
+    107 [label="107 compass"]
+    107 -> 81 [label="correct"]
+    107 -> 237
+    107 -> 63
+
+    108 -> 36
+
+    109 [label="109 compass"]
+    109 -> 308 [label="correct"]
+    109 -> 217
+    109 -> 251
+
+    110 -> 66
+
+    111 [label="111 food-"]
+    111 -> 155
+
+    112 -> 138
+
+    113 -> 88
+
+    114 [label="114 code"]
+    114 -> 28 [label="yes"]
+    114 -> 196
+
+    115 -> 91
+
+    116 -> 34 [label="Leo"]
+    116 -> 105 [label="Dick"]
+    116 -> 77 [label="Pauli"]
+    116 -> 198 [label="Anne"]
+    116 -> 181 [label="Tim"]
+    116 -> 259 [label="Secret"]
+
+    117 [label="117 code+"]
+    117 -> 14
+
+    118 -> 249
+
+    119 [label="119 code"]
+    119 -> 305 [label="yes"]
+    119 -> 201 [label="no"]
+
+    120 [label="120 compass"]
+    120 -> 98 [label="yes"]
+    120 -> 44
+    120 -> 217
+
+    121 -> 18
+
+    122 [label="122 food-"]
+    122 -> 155
+
+    123 -> 47
+
+    124 -> 221
+
+    125 [label="125 food-"]
+    125 -> 140
+
+    126 [label="126 map+"]
+    126 -> 160
+
+    127 [label="127 compass"]
+    127 -> 161 [label="yes"]
+    127 -> 10
+    127 -> 194
+
+    128 -> 75
+
+    129 [label="129 binoculars+"]
+    129 -> 116
+
+    130 -> 93
+
+    131 [label="131 binoculars"]
+    131 -> 167 [label="yes"]
+    131 -> 37 [label="no"]
+
+    132 [label="132 compass"]
+    132 -> 16 [label="correct"]
+    132 -> 62
+    132 -> 150
+
+    133 [label="133 map (stone circle)"]
+    133 -> 36 [label="A2"]
+    133 -> 215 [label="B2"]
+    133 -> 108 [label="C2 (correct)"]
+
+    134 -> 172
+
+    135 [label="135 food-"]
+    135 -> 18
+
+    136 [label="136 compass"]
+    136 -> 20 [label="Yes"] # Unclear
+    136 -> 155
+    136 -> 111
+
+    137 [label="137 binoculars"]
+    137 -> 174 [label="yes"]
+    137 -> 253 [label="no"]
+
+    138 -> 313
+
+    139 -> 113
+
+    140 -> 310
+
+    141 [label="141 code+"]
+    141 -> 116
+
+    142 [label="142 food-"]
+    142 -> 75
+
+    143 [label="142 compass"]
+    143 -> 10 [label="yes"]
+    143 -> 53
+    143 -> 194
+
+    144 [label="144 binoculars"]
+    144 -> 126 [label="yes"]
+    144 -> 244 [label="no"]
+
+    145 [label="145 bad end!"]
+
+    146 [label="146 binoculars"]
+    146 -> 287 [label="yes"]
+    146 -> 183 [label="no"]
+
+    147 -> 132
+
+    148 [label="148 comp+"]
+    148 -> 249
+
+    149 [label="149 comp+"]
+    149 -> 38
+
+    150 -> 62
+
+    151 -> 186
+
+    152 [label="152 food-"]
+    152 -> 66
+
+    153 [label="152 map-"]
+    153 -> 18
+
+    154 [label="154 binoculars"]
+    154 -> 273 [label="yes"]
+    154 -> 188 [label="no"]
+
+    155 -> 137 [label="Leo"]
+    155 -> 219 [label="Dick"]
+    155 -> 190 [label="Pauli"]
+    155 -> 51 [label="Anne"]
+    155 -> 24 [label="Tim"]
+    155 -> 229 [label="Secret"]
+
+    156 [label="156 compass+"]
+    156 -> 221
+
+    157 [label="157 food-"]
+    157 -> 7
+
+    158 [label="158 code"]
+    158 -> 193 [label="yes"]
+    158 -> 9 [label="no"]
+
+    159 [label="159 code"]
+    159 -> 50 [label="yes"]
+    159 -> 8 [label="no"]
+
+    160 -> 233 [label="Leo"]
+    160 -> 73 [label="Dick"]
+    160 -> 114 [label="Pauli"]
+    160 -> 197 [label="Anne"]
+    160 -> 285 [label="Tim"]
+    160 -> 314 [label="Secret"]
+
+    161 -> 74
+
+    162 [label="162 binoculars"]
+    162 -> 141 [label="yes"]
+    162 -> 54 [label="no"]
+
+    163 [label="163 compass+"]
+    163 -> 75
+
+    164 [label="164 map (radio tower)"]
+    164 -> 180 [label="A1"]
+    164 -> 315 [label="B1 (correct)"]
+    164 -> 286 [label="C1"]
+
+    165 [label="165 map+"]
+    165 -> 78
+
+    166 [label="166 map (radio tower)"]
+    166 -> 260 [label="B1 (correct)"] # Note, different than at 164
+    166 -> 292 [label="C1"]
+    166 -> 225 [label="E1"]
+
+    167 [label="167 map+"]
+    167 -> 2
+
+    168 [label="168 compass"]
+    168 -> 17 [label="yes"]
+    168 -> 96
+    168 -> 36
+
+    169 [label="169 code"]
+    169 -> 262 [label="yes"]
+    169 -> 300 [label="no"]
+
+    170 [label="170 map+"]
+    170 -> 136
+
+    171 [label="171 map (memorial)"]
+    171 -> 264 [label="E4 (correct)"]
+    171 -> 252 [label="D4"]
+    171 -> 217 [label="D3"]
+
+    172 -> 282 [label="Leo"]
+    172 -> 154 [label="Dick"]
+    172 -> 84 [label="Pauli"]
+    172 -> 218 [label="Anne"]
+    172 -> 43 [label="Tim"]
+    172 -> 203 [label="Secret"]
+
+    173 -> 155
+
+    174 [label="174 compass+"]
+    174 -> 47
+
+    175 [label="175 binoculars+"]
+    175 -> 113
+
+    176 [label="176 compass"]
+    176 -> 311 [label="yes"]
+    176 -> 157
+    176 -> 206
+
+    177 -> 70
+
+    178 [label="178 food-"]
+    178 -> 31
+
+    179 -> 290
+
+    180 [label="180 food-"]
+    180 -> 91
+
+    181 [label="181 compass"]
+    181 -> 165 [label="yes"]
+    181 -> 78
+    181 -> 246
+
+    182 [label="182 compass"]
+    182 -> 212 [label="yes"]
+    182 -> 199
+    182 -> 58
+
+    183 [label="183 food-"]
+    183 -> 14
+
+    184 [label="184 compass"]
+    184 -> 94 [label="yes"]
+    184 -> 270
+    185 -> 299
+
+    185 [label="185 map+"]
+    185 -> 249
+
+    186 -> 120 [label="Leo"]
+    186 -> 171 [label="Dick"]
+    186 -> 109 [label="Pauli"]
+    186 -> 240 [label="Anne"]
+    186 -> 83 [label="Tim"]
+    186 -> 67 [label="Secret"]
+
+    187 -> 18
+
+    188 [label="188 food-"]
+    188 -> 66
+
+    189 -> 136
+
+    190 [label="190 binoculars"]
+    190 -> 123 [label="yes"]
+    190 -> 86 [label="no"]
+
+    191 [label="191 food-"]
+    191 -> 7
+
+    192 [label="192 map (ruins)"]
+    192 -> 175 [label="A1 (correct)"]
+    192 -> 6 [label="A2"]
+    192 -> 255 [label="B2"]
+
+    193 [label="193 map+"]
+    193 -> 70
+
+    194 [label="194 food-"]
+    194 -> 74
+
+    195 [label="195 map (shepherd's hut)"]
+    195 -> 286 [label="B3"]
+    195 -> 91 [label="D3"]
+    195 -> 115 [label="C3 (correct)"]
+
+    196 [label="196 food-"]
+    196 -> 162
+
+    197 [label="197 binoculars"]
+    197 -> 128 [label="yes"]
+    197 -> 278 [label="no"]
+
+    198 [label="198 map (shepherd's hut)"]
+    198 -> 130 [label="B2"]
+    198 -> 57 [label="C2"]
+    198 -> 13 [label="C3 (correct)"]
+
+    199 [label="199 food-"]
+    199 -> 212
+
+    200 -> 15 [label="Leo"]
+    200 -> 107 [label="Dick"]
+    200 -> 169 [label="Pauli"]
+    200 -> 59 [label="Anne"]
+    200 -> 131 [label="Tim"]
+    200 -> 184 [label="Secret"]
+
+    201 [label="201 compass-"]
+    201 -> 36
+
+    202 -> 132
+
+    203 [label="203 binoculars"]
+    203 -> 187 [label="yes"]
+    203 -> 135 [label="no"]
+
+    204 [label="204 food-"]
+    204 -> 136
+
+    205 -> 66
+
+    206 [label="206 food-"]
+    206 -> 7
+
+    207 -> 221
+
+    208 [label="208 binoculars"]
+    208 -> 256 [label="yes"]
+    208 -> 291 [label="no"]
+
+    209 [label="209 food-"]
+    209 -> 162
+
+    210 [label="210 compass"]
+    210 -> 49 [label="yes"]
+    210 -> 25
+    210 -> 316
+
+    211 -> 75
+
+    212 [label="212 code (good end if yes)"]
+    212 -> 145 [label="no"]
+
+    213 [label="213 food-"]
+    213 -> 200
+
+    214 [label="214 binoculars"]
+    214 -> 293 [label="yes"]
+    214 -> 3 [label="no"]
+
+    215 [label="215 code-"]
+    215 -> 36
+
+    216 -> 2
+
+    217 [label="217 food-"]
+    217 -> 4
+
+    218 [label="218 map (swamp)"]
+    218 -> 65 [label="C2"]
+    218 -> 239 [label="D3 (correct)"]
+    218 -> 99 [label="C3"]
+
+    219 [label="219 compass"]
+    219 -> 274 [label="yes"]
+    219 -> 86
+    219 -> 283
+
+    220 [label="220 map (railway crossing)"]
+    220 -> 298 [label="B4"]
+    220 -> 177 [label="C4"]
+    220 -> 312 [label="D4 (correct"]
+
+    221 -> 102
+
+    222 -> 74
+
+    223 [label="223 food-"]
+    223 -> 75
+
+    224 [label="224 food-"]
+    224 -> 182
+
+    225 -> 200
+
+    226 [label="226 compass-"]
+    226 -> 132
+
+    227 [label="227 binoculars"]
+    227 -> 151
+
+    228 [label="228 food-"]
+    228 -> 136
+
+    229 [label="229 code"]
+    229 -> 289 [label="yes"]
+    229 -> 302 [label="no"]
+
+    230 [label="230 code+"]
+    230 -> 140
+
+    231 [label="231 code"]
+    231 -> 276 [label="yes"]
+    231 -> 296 [label="no"]
+
+    232 [label="232 map+"]
+    232 -> 91
+
+    233 [label="233 compass"]
+    233 -> 258 [label="yes"]
+    233 -> 209
+    233 -> 317
+
+    234 -> 182
+
+    235 -> 78
+
+    236 [label="236 binoculars+"]
+    236 -> 14
+
+    237 -> 38
+
+    238 [label="238 code"]
+    238 -> 134 [label="yes"]
+    238 -> 5 [label="no"]
+
+    239 [label="239 compass+"]
+    239 -> 18
+
+    240 [label="240 binoculars"]
+    240 -> 170 [label="yes"]
+    240 -> 204 [label="no"]
+
+    241 [label="241 binoculars+"]
+    241 -> 138
+
+    242 [label="242 binoculars"]
+    242 -> 139 [label="yes"]
+    242 -> 87 [label="no"]
+
+    243 [label="243 food-"]
+    243 -> 221
+
+    244 -> 160
+
+    245 [label="245 map (road fork)"]
+    245 -> 222 [label="B2 (correct)"]
+    245 -> 92 [label="C2"]
+    245 -> 74 [label="D2"]
+
+    246 -> 78
+
+    247 [label="247 food-"]
+    247 -> 182
+
+    248 [label="248 map (waterfall)"]
+    248 -> 236 [label="D2 (correct"]
+    248 -> 280 [label="C2"]
+    248 -> 269 [label="B2"]
+
+    249 -> 306
+
+    250 [label="250 food-"]
+    250 -> 66
+
+    251 [label="251 code-"]
+    251 -> 4
+
+    252 [label="252 compass-"]
+    252 -> 140
+
+    253 [label="253 map-"]
+    253 -> 47
+
+    254 [label="254 map (tunnel)"]
+    254 -> 312 [label="B4"]
+    254 -> 298 [label="C4"]
+    254 -> 284 [label="D4 (correct)"]
+
+    255 [label="255 binoculars-"]
+    255 -> 113
+
+    256 -> 31
+
+    257 [label="257 compass-"]
+    257 -> 160
+
+    258 -> 162
+
+    259 [label="259 compass"]
+    259 -> 33 [label="yes"]
+    259 -> 78
+    259 -> 235
+
+    260 [label="260 compass+"]
+    260 -> 200
+
+    261 [label="261 code"]
+    261 -> 39 [label="yes"]
+    261 -> 226
+
+    262 -> 38
+
+    263 [label="263 food-"]
+    263 -> 172
+
+    264 [label="264 code+"]
+    264 -> 4
+
+    265 [label="265 food-"]
+    265 -> 138
+
+    266 [label="266 code+"]
+    266 -> 140
+
+    267 [label="267 food-"]
+    267 -> 91
+
+    268 [label="268 code+"]
+    268 -> 182
+
+    269 -> 14
+
+    270 [label="270 binoculars-"]
+    270 -> 2
+
+    271 [label="271 food-"]
+    271 -> 186
+
+    272 [label="272 map (railway crossing)"]
+    272 -> 288 [label="C4 (correct)"]
+    272 -> 295 [label="D4"]
+    272 -> 5 [label="B4"]
+
+    273 -> 66
+
+    274 -> 47
+
+    275 [label="275 compass"]
+    275 -> 68 [label="yes"]
+    275 -> 206
+    275 -> 157
+
+    276 [label="276 binoculars+"]
+    276 -> 31
+
+    277 [label="277 compass"]
+    277 -> 55 [label="yes"]
+    277 -> 290
+    277 -> 179
+
+    278 [label="278 compass-"]
+    278 -> 75
+
+    279 -> 200
+
+    280 [label="280 food-"]
+    280 -> 14
+
+    281 [label="281 map (semaphore)"]
+    281 -> 46 [label="D4"]
+    281 -> 97 [label="B4 (correct)"]
+    281 -> 301 [label="C4"]
+
+    282 [label="282 compass"]
+    282 -> 250 [label="yes"]
+    282 -> 307
+    282 -> 205
+
+    283 [label="283 food-"]
+    283 -> 47
+
+    284 -> 70
+
+    285 [label="285 code"]
+    285 -> 211 [label="yes"]
+    285 -> 142
+
+    286 [label="286 food-"]
+    286 -> 91
+
+    287 -> 14
+
+    288 [label="288 compass+"]
+    288 -> 172
+
+    289 [label="289 compass+"]
+    289 -> 138
+
+    290 [label="290 food-"]
+    290 -> 160
+
+    291 [label="291 map-"]
+    291 -> 31
+
+    292 -> 200
+
+    293 -> 132
+
+    294 [label="294 compass"]
+    294 -> 303 [label="yes"]
+    294 -> 46
+    294 -> 271
+
+    295 [label="295 code-"]
+    295 -> 172
+
+    296 [label="296 food-"]
+    296 -> 31
+
+    297 [label="297 map+'"]
+    297 -> 200
+
+    298 [label="298 code-"]
+    298 -> 70
+
+    299 [label="299 binoculars-"]
+    299 -> 2
+
+    300 [label="300 binoculars-"]
+    300 -> 38
+
+    301 [label="301 binoculars-"]
+    301 -> 186
+
+    302 [label="302 map-"]
+    302 -> 138
+
+    303 [label="303 code+"]
+    303 -> 186
+
+    304 [label="304 food-"]
+    304 -> 249
+
+    305 -> 36
+
+    306 -> 272 [label="Leo"]
+    306 -> 238 [label="Dick"]
+    306 -> 64 [label="Pauli"]
+    306 -> 281 [label="Anne"]
+    306 -> 227 [label="Tim"]
+    306 -> 294 [label="Secret"]
+
+    307 [label="307 food-"]
+    307 -> 66
+
+    308 -> 4
+
+    309 [label="309 food-"]
+    309 -> 136
+
+    310 -> 100
+
+    311 -> 7
+
+    312 [label="312 food-"]
+    312 -> 70
+
+    313 -> 21 [label="Leo"]
+    313 -> 176 [label="Dick"]
+    313 -> 275 [label="Pauli"]
+    313 -> 220 [label="Anne"]
+    313 -> 158 [label="Tim"]
+    313 -> 254 [label="Secret"]
+
+    314 [label="314 binoculars"]
+    314 -> 163 [label="yes"]
+    314 -> 223 [label="no"]
+
+    315 -> 91
+
+    316 [label="316 food-"]
+    316 -> 221
+
+    317 -> 162
+
+    318 -> 116
+}
