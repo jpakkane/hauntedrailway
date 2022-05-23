@@ -290,7 +290,7 @@ digraph ghosttrain {
     83 -> 43 [label="no"]
 
     84 [label="84 code"]
-    84 -> 100 [label="yes"]
+    84 -> 110 [label="yes"]
     84 -> 152 [label="no"]
 
     85 -> 155
